@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Docker</title>
+    <link type="image/png" rel="icon" href="images/fav-icon.png" sizes="16x16">
+    <link rel=" stylesheet" href="static/style.css">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+    <body>
+        <section class="form-card-sec">
+            <div class="container">
+                <div class="form-wrap">
+                    <div class="row">
+                        <div class="col-md-6 left-sec">
+                        <form method="post" action="/Connect" id="123" class="w-100">
+                            <div class="form-group row">
+                                <label for="virtual-ip" class="col-sm-4 col-form-label"  >Virtual machine IP</label>
+                                <div class="col-sm-8">
+									<input type="text" class="form-control" id="virtual-ip" name="virtual-ip"placeholder="" value=""required>
+								</div>
+                            </div>
+							<div class="form-group row">
+                                <label for="Username" class="col-sm-4 col-form-label">User Name</label>
+                                <div class="col-sm-8">
+									<input type="text" class="form-control" id="Username" name="Username"placeholder="" value=""required>
+								</div>
+                            </div>
+							<div class="form-group row">
+                                <label for="Password" class="col-sm-4 col-form-label">Password</label>
+                                <div class="col-sm-8">
+									<input type="text" class="form-control" id="Password" name="Password"placeholder="" value=""required>
+								</div>
+                            </div>
+							<div class="form-group row">
+                                <label for="Password" class="col-sm-4 col-form-label">port</label>
+                                <div class="col-sm-8">
+									<input type="text" class="form-control" id="port" name="port"placeholder="" value="22"required>
+								</div>
+                            </div>
+							<div class="form-group row">
+								<div class="btn-wrap col-sm-3 ml-auto mt-0">
+									<button class="form-btn" >Connect</button>
+								</div>
+							</div>
+							 </form>
+
+                            <div class="btn-wrap">
+                                <button class="form-btn">Install</button>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="col-md-6 right-sec">
+                        <form action="" id="" class="w-100">
+                            <div class="form-group row">
+                                <label for="user-load" class="col-sm-4 col-form-label">User Load</label>
+                                <div class="col-sm-8">
+                                <input type="number" class="form-control" id="user-load" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="duration" class="col-sm-4 col-form-label">Duration</label>
+                                <div class="col-sm-8">
+                                <input type="time" class="form-control" id="duration" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="ramp-up" class="col-sm-4 col-form-label">RampUp</label>
+                                <div class="col-sm-8">
+                                <input type="text" class="form-control" id="ramp-up" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="test-script" class="col-sm-4 col-form-label">Test Script</label>
+                                <div class="col-sm-8">
+                                 <select id='selUser' style='width: 200px;'>
+                              <option value='0'>Select User</option>
+                              <option value='1'>Yogesh singh</option>
+                              <option value='2'>Sonarika Bhadoria</option>
+                              <option value='3'>Anil Singh</option>
+                              <option value='4'>Vishal Sahu</option>
+                              <option value='5'>Mayank Patidar</option>
+                              <option value='6'>Vijay Mourya</option>
+                              <option value='7'>Rakesh sahu</option>
+                             </select>
+                                </div>
+                            </div>
+                            <div class="btn-wrap">
+                                <button class="form-btn">Run</button>
+                            </div>
+                        </form>
+                        </div>
+                        </div>
+
+                </div>  
+            </div>
+        </section>
+		<script>
+function ipConnect() {
+ var ip=document.getElementById("virtual-ip").value;
+ var uName=document.getElementById("Username").value;
+ var psw=document.getElementById("Password").value;
+ alert(ip)
+ alert(uName)
+ alert(psw)
+}
+</script>
+
+    </body>
+	
+</html>
