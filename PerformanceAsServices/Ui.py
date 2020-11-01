@@ -1,14 +1,19 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,json
 import sys
 import os
 import paramiko
 from cryptography.hazmat.primitives.serialization import *
-
+path = "C:\\Users\\Sanisetty.Vardhan\\PycharmProjects\\PerformanceAsAService"
 app = Flask(__name__)
-
+subfolder = os.listdir(path)
+xml_jmx = []
+for file in subfolder:
+    if ".xml" in file or ".jmx" in file:
+        xml_jmx.append(file)
+print(xml_jmx)
 @app.route('/')
 def formpage():
-    return render_template("index.html")
+    return render_template("index.html",xml_jmx= json.dumps(xml_jmx))
 
 # @app.route('/Connect',methods=["Post"])
 # def connectTovm():

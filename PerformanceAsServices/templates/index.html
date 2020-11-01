@@ -82,14 +82,23 @@
                                 <label for="test-script" class="col-sm-4 col-form-label">Test Script</label>
                                 <div class="col-sm-8">
                                  <select id='selUser' style='width: 200px;'>
-                              <option value='0'>Select User</option>
-                              <option value='1'>Yogesh singh</option>
-                              <option value='2'>Sonarika Bhadoria</option>
-                              <option value='3'>Anil Singh</option>
-                              <option value='4'>Vishal Sahu</option>
-                              <option value='5'>Mayank Patidar</option>
-                              <option value='6'>Vijay Mourya</option>
-                              <option value='7'>Rakesh sahu</option>
+                                     <option value ="">Select one file</option>
+                             <script>
+                                 var  list = {{xml_jmx|tojson}};
+                                 var str = list.replaceAll("\\","");
+                                 str = str.replaceAll('"','');
+                                  str = str.replaceAll(']','');
+                                   str = str.replaceAll('[','');
+                                   list = str.split(",");
+                                 var ele = document.getElementById('selUser');
+
+                                 for (var i = 0; i< list.length; i++)
+                                 {
+                                 ele.innerHTML = ele.innerHTML + '<option value = " ' +list[i] +' " > ' + list[i] + ' </ option >';
+
+                                 }
+
+                             </script>
                              </select>
                                 </div>
                             </div>
