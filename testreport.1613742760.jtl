@@ -1,0 +1,41 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1613742768667,1429,FlighBooking_T01_HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-1,,true,,1703,850,3,3,null,0,8231,93
+1613742776895,1429,/HomePage,200,OK,Fligh Reservation System 1-1,text,true,,1703,850,3,3,https://www.blazedemo.com/,135,0,93
+1613742772655,571,FlighBooking_T01_HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-2,,true,,1628,850,4,4,null,0,8005,2
+1613742780659,571,/HomePage,200,OK,Fligh Reservation System 1-2,text,true,,1628,850,4,4,https://www.blazedemo.com/,35,0,2
+1613742776642,309,FlighBooking_T01_HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-3,,true,,1617,850,5,5,null,0,8003,2
+1613742784643,309,/HomePage,200,OK,Fligh Reservation System 1-3,text,true,,1617,850,5,5,https://www.blazedemo.com/,33,0,2
+1613742778331,276,FlighBooking_T02_FlightFinder,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-1,,true,,1622,1228,5,5,null,0,8004,0
+1613742786331,276,/reserve.php,200,OK,Fligh Reservation System 1-1,text,true,,1622,1228,5,5,https://www.blazedemo.com/reserve.php,42,0,0
+1613742780641,294,FlighBooking_T01_HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-4,,true,,1563,850,5,5,null,0,8003,1
+1613742788643,294,/HomePage,200,OK,Fligh Reservation System 1-4,text,true,,1563,850,5,5,https://www.blazedemo.com/,33,0,1
+1613742781232,194,FlighBooking_T02_FlightFinder,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-2,,true,,1841,1228,5,5,null,0,8002,0
+1613742789233,194,/reserve.php,200,OK,Fligh Reservation System 1-2,text,true,,1841,1228,5,5,https://www.blazedemo.com/reserve.php,34,0,0
+1613742784638,282,FlighBooking_T01_HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-5,,true,,1760,850,5,5,null,0,8002,2
+1613742792640,282,/HomePage,200,OK,Fligh Reservation System 1-5,text,true,,1760,850,5,5,https://www.blazedemo.com/,33,0,2
+1613742784953,199,FlighBooking_T02_FlightFinder,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-3,,true,,1686,1228,5,5,null,0,8002,0
+1613742792955,199,/reserve.php,200,OK,Fligh Reservation System 1-3,text,true,,1686,1228,5,5,https://www.blazedemo.com/reserve.php,41,0,0
+1613742786611,367,FlighBooking_T03_SelectFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-1,,true,,1924,1298,5,5,null,0,8001,0
+1613742794612,367,/purchase.php,200,OK,Fligh Reservation System 1-1,text,true,,1924,1298,5,5,https://www.blazedemo.com/purchase.php,34,0,0
+1613742788938,210,FlighBooking_T02_FlightFinder,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-4,,true,,1635,1228,5,5,null,0,8002,0
+1613742796939,210,/reserve.php,200,OK,Fligh Reservation System 1-4,text,true,,1635,1228,5,5,https://www.blazedemo.com/reserve.php,44,0,0
+1613742789429,510,FlighBooking_T03_SelectFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-2,,true,,1927,1298,5,5,null,0,8002,0
+1613742797430,510,/purchase.php,200,OK,Fligh Reservation System 1-2,text,true,,1927,1298,5,5,https://www.blazedemo.com/purchase.php,34,0,0
+1613742792925,255,FlighBooking_T02_FlightFinder,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-5,,true,,1606,1228,5,5,null,0,8001,0
+1613742800925,255,/reserve.php,200,OK,Fligh Reservation System 1-5,text,true,,1606,1228,5,5,https://www.blazedemo.com/reserve.php,34,0,0
+1613742793156,340,FlighBooking_T03_SelectFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-3,,true,,1901,1298,5,5,null,0,8001,0
+1613742801156,340,/purchase.php,200,OK,Fligh Reservation System 1-3,text,true,,1901,1298,5,5,https://www.blazedemo.com/purchase.php,33,0,0
+1613742794980,306,FlighBooking_T04_BookFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-1,,true,,1806,1418,5,5,null,0,8002,0
+1613742802981,306,/confirmation.php,200,OK,Fligh Reservation System 1-1,text,true,,1806,1418,5,5,https://www.blazedemo.com/confirmation.php,33,0,0
+1613742797151,294,FlighBooking_T03_SelectFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-4,,true,,1936,1298,5,5,null,0,8000,0
+1613742805151,294,/purchase.php,200,OK,Fligh Reservation System 1-4,text,true,,1936,1298,5,5,https://www.blazedemo.com/purchase.php,38,0,0
+1613742797941,350,FlighBooking_T04_BookFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-2,,true,,1807,1418,5,5,null,0,8001,0
+1613742805942,350,/confirmation.php,200,OK,Fligh Reservation System 1-2,text,true,,1807,1418,5,5,https://www.blazedemo.com/confirmation.php,33,0,0
+1613742801181,221,FlighBooking_T03_SelectFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-5,,true,,1924,1298,5,5,null,0,8001,0
+1613742809182,221,/purchase.php,200,OK,Fligh Reservation System 1-5,text,true,,1924,1298,5,5,https://www.blazedemo.com/purchase.php,34,0,0
+1613742801497,198,FlighBooking_T04_BookFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-3,,true,,1853,1418,5,5,null,0,8001,0
+1613742809498,198,/confirmation.php,200,OK,Fligh Reservation System 1-3,text,true,,1853,1418,5,5,https://www.blazedemo.com/confirmation.php,35,0,0
+1613742805446,323,FlighBooking_T04_BookFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-4,,true,,1780,1418,4,4,null,0,8001,0
+1613742813446,323,/confirmation.php,200,OK,Fligh Reservation System 1-4,text,true,,1780,1418,4,4,https://www.blazedemo.com/confirmation.php,34,0,0
+1613742809404,333,FlighBooking_T04_BookFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Fligh Reservation System 1-5,,true,,1654,1418,3,3,null,0,8000,0
+1613742817404,333,/confirmation.php,200,OK,Fligh Reservation System 1-5,text,true,,1654,1418,3,3,https://www.blazedemo.com/confirmation.php,38,0,0
