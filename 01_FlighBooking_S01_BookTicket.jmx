@@ -63,14 +63,14 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">${__P(Perfi_loopcount,1)}</stringProp>
+          <stringProp name="LoopController.loops">${__P(X_loopcount,10)}</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(Perfi_users,5)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__P(Perfi_rampup,20)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(X_users,10)}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(X_rampup,20)}</stringProp>
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">${__P(Perfi_sheduler,600)}</stringProp>
+        <stringProp name="ThreadGroup.duration">${__P(X_sheduler,300)}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -596,7 +596,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">Aggreport.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
